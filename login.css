@@ -1,0 +1,37 @@
+#a1 {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.active,
+#a1:hover {
+    color: rgb(14, 53, 54);
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#foot {
+    height: 50px;
+    color: rgb(49, 49, 49);
+    background-color: rgb(184, 210, 212);
+    font-size: x-large;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+body {
+    background-color: rgb(184, 210, 212);
+}

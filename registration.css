@@ -1,0 +1,123 @@
+#a1 {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#a1:active {
+    color: rgb(10, 66, 68);
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#foot {
+    height: 50px;
+    color: rgb(49, 49, 49);
+    background-color: rgb(184, 210, 212);
+    font-size: x-large;
+}
+
+body {
+    background-color: rgb(184, 210, 212);
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+
+/* body,
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #d3d3d3;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+}
+
+.main {
+    margin-top: 70px;
+}
+
+h1.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+hr {
+    width: 10%;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 14px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 9px;
+    padding-top: 3px;
+}
+
+.main-login {
+    background-color: #fff;
+    /* shadows and rounded borders */
+
+.main-center {
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+}
+
+.login-button {
+    margin-top: 3px;
+}
+
+.login-register {
+    font-size: 8px;
+    text-align: center;
+}
+
+*/
